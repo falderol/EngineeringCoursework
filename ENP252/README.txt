@@ -1,0 +1,1 @@
+Relevant coursework from ENP252 Principles of Engineering. Files included mainly relate to the construction of a programmable ellectronic current load with the class ran through an arduino. And the personal project of developing a battery tester application for said current load.

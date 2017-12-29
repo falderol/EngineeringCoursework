@@ -1,0 +1,21 @@
+[Eagle]
+Version="07 03 00"
+Platform="Windows"
+Serial="6F15AD456D-LSR-WLM50EP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/jlgegner.CAMPUS/Dropbox/TU/tools/eagle/myLib/blockdiagrams.lbr"
+UsedLibrary="C:/Users/jlgegner.CAMPUS/Dropbox/TU/tools/eagle/myLib/ideal_elements.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 14 1181 881"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 2280"
+Window="Win_1"

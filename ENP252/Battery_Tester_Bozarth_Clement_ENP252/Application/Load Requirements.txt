@@ -1,0 +1,5 @@
+The ability to keep time.
+The ability to measure voltage across a battery to 3 mV percision.
+The ability to demand a constant current from the load.
+The ability to issue a command from the device.
+The ability to display info on the device.

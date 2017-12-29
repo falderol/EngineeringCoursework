@@ -1,0 +1,28 @@
+For our application we needed to create a model of a AA battery. 
+Specifically we wanted a time vs voltage curve so we could plug in
+a measured voltage and get out the percent of life on the battery. 
+This was the focus of our expirementation. The CC-EL was capable 
+of demanding a constant current load, measuring the voltage across 
+the battery, and the time the measurement was taken. We used the 
+program realterm to capture the serial monitors output into a .txt
+file. This data was then displayed in excel and both raw data and 
+graphs to be visualised and for cursory evaluation and averaging. 
+Later the data was further anylized using mathmatica. From our 
+research we were able to determine that above 1.5V a battery is 
+considered full and below 0.8V a battery is considered dead. With 
+this knowledge in hand we tested duracell batteries at 200mA, 300mA, 
+400mA, and 500mA load to see how varying the load affected the 
+voltage output of the battery. The voltage output showed a non 
+linear increase along the batteries lifespan. This meant that we 
+only had time to parameterize the time vs voltage curve for one 
+load. We decided to parameterize the battery at as low of a current 
+draw as we feasibly could accomplish in order to minimize the tests
+effect on the battery. This ended up being 200ma. We were able to 
+test four different brands of batteries. Duracel, Energizer, Rayovac, 
+and Amazon Basic. Some brands were tested multiple times. In the end 
+the time vs voltage curve for all models of battery were averaged 
+together. No individual curve varied by more than 2% of the average. 
+The greatest source of deviation was the starting voltage of the 
+batteries. This averaged time vs voltage curve gave us our model of 
+the AA battery that we needed. The data was made into a look up table
+to be referenced by our program.

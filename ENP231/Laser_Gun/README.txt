@@ -1,0 +1,1 @@
+File has 3 boards, 1 is main, mode just contains a switch and trigger just contains a button
